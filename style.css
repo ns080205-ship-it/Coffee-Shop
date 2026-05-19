@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -8,4 +12,34 @@ ul{
     display: flex;
     gap: 20px;
     list-style: none;
+}
+.HeroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right:50px ;
+    /* gap: 200px; */
+}
+.content{
+
+}
+.HeroSection{
+  
+}
+.heroSection_Heading{
+    font-style: italic;
+    font-size: xx-large;
+}
+.heroSection_p1{
+    font-weight: bold;
+    font-size: x-large;
+}
+.heroSection_p2{
+    font-size: small;
+    font-size: large;
+}
+.herosection_image{
+    height: 500px;
+    width: 500px;
 }
